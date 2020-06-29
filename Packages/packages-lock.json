@@ -16,13 +16,24 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.render-pipelines.universal": {
+    "com.unity.render-pipelines.high-definition": {
       "version": "8.1.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.render-pipelines.core": "8.1.0",
-        "com.unity.shadergraph": "8.1.0"
+        "com.unity.shadergraph": "8.1.0",
+        "com.unity.visualeffectgraph": "8.1.0",
+        "com.unity.render-pipelines.high-definition-config": "8.1.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.render-pipelines.high-definition-config": {
+      "version": "8.1.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.render-pipelines.core": "8.1.0"
       },
       "url": "https://packages.unity.com"
     },
